@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script>
-    function lifeInWeeks(age){
+function lifeInWeeks(age){
     var yearsLeft = 90 - age;
     var days = yearsLeft * 365;
     var weeks = yearsLeft * 52;
@@ -19,5 +8,3 @@
 }
 
 lifeInWeeks(18);
-</script>
-</html>
