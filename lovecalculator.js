@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
-  <script>
+
     function loveCalculator() {
       prompt(`Enter the first name for the love calculator`);
       prompt(`Enter the second name to get your love%`);
@@ -17,5 +9,3 @@
       document.write(`Your love score is: ${result}`)
     }
     loveCalculator();
-  </script>
-</html>
