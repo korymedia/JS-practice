@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
-  <script>
-   var numBottles = 99;
+var numBottles = 99;
 function callBottles (){
     while (numBottles != 0) {
         if( numBottles <=1 ){
@@ -21,5 +12,5 @@ function callBottles (){
     }
 }
 callBottles();
-  </script>
-</html>
+ 
+
