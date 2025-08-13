@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script>
-    var names = [`Korede`,`Dominion`,`Ope`,`Ayo`];
+var names = [`Korede`,`Dominion`,`Ope`,`Ayo`];
 function whosPaying() {
     var numberOfPeople = names.length;
     var randomPosition = Math.floor(Math.random() * numberOfPeople);
@@ -18,5 +7,3 @@ function whosPaying() {
     document.write(randomPerson + ` is going to pay for lunch today`)
 }
 whosPaying();
-</script>
-</html>
